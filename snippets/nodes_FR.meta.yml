@@ -1,28 +1,7 @@
 proxies:
-- country: 🇫🇷FR
-  delay: 2273
-  name: 2|🇫🇷1 |  5.3MB/s
-  password: dongtaiwang.com
-  port: 61770
-  server: 51.159.226.1
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- name: 2|🇫🇷2 |  6.0MB/s
-  network: ws
-  port: 8080
-  server: 172.67.73.163
-  tls: false
-  type: vless
-  uuid: b30743e3-6d1a-4854-a3a0-a5769b64e3ad
-  ws-opts:
-    headers:
-      Host: qw.vU6d72nt9y.zULaIR.ORg.
-    path: /?ed=2048
 - alterId: 2
   cipher: auto
-  name: 2|🇫🇷3 |  4.0MB/s
+  name: 1|🇫🇷1 |  4.9MB/s
   network: ws
   port: 30837
   server: v37.heduian.link
@@ -33,9 +12,21 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- client-fingerprint: safari
+  flow: ''
+  mode: ''
+  name: 1|🇫🇷2 |  5.3MB/s
+  network: tcp
+  port: 443
+  server: france.linceed.se
+  servername: ''
+  tls: true
+  type: vless
+  udp: false
+  uuid: 5627861d-2607-4423-c3b6-b3bfc9b95a9a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0029
+  name: 1,13|CN_speednode_0029
   network: tcp
   port: 40072
   reality-opts:
@@ -47,3 +38,13 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- country: 🇫🇷FR
+  delay: 2273
+  name: 1|🇫🇷4 |  5.1MB/s
+  password: dongtaiwang.com
+  port: 61770
+  server: 51.159.226.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
