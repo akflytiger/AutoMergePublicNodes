@@ -1,35 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: f9916687-b17e-49be-a0a2-6060553295bb
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: f9916687-b17e-49be-a0a2-6060553295bb
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: 313f6006-2c4a-470a-ae67-1b67c81f2a75
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 1016487d-ba8d-498b-84fb-773038f546a8
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 313f6006-2c4a-470a-ae67-1b67c81f2a75
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 1016487d-ba8d-498b-84fb-773038f546a8
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇬🇧1 |  4.8MB/s
+  name: 1|🇬🇧1 |  4.8MB/s
   network: tcp
   port: 35311
   reality-opts:
@@ -42,7 +28,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 2307
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0032
+  name: 1,14|CN_speednode_0032
   network: tcp
   port: 65053
   reality-opts:
@@ -56,7 +42,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0034
+  name: 1,14|CN_speednode_0034
   network: tcp
   port: 14659
   reality-opts:
@@ -70,7 +56,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0051
+  name: 1,14|CN_speednode_0051
   network: tcp
   port: 49699
   reality-opts:
@@ -85,7 +71,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇬🇧5 |  5.1MB/s
+  name: 1|🇬🇧5 |  5.1MB/s
   network: ws
   port: 8443
   server: 104.17.148.22
@@ -98,6 +84,13 @@ proxies:
     headers:
       Host: MdLoXlYg.rIcKtMoUsE.InFo
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 323a74f6-5874-4ade-bc44-bafe49026518
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443

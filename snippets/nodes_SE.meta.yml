@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 2|🌀11-SE |  3.3MB/s
+  name: 1|🌀11-SE |  3.3MB/s
   network: tcp
   port: 443
   reality-opts:

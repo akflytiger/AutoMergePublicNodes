@@ -1,14 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: f9916687-b17e-49be-a0a2-6060553295bb
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 313f6006-2c4a-470a-ae67-1b67c81f2a75
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 1016487d-ba8d-498b-84fb-773038f546a8
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
@@ -16,7 +9,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪1 |  5.5MB/s
+  name: 1|🇩🇪1 |  5.5MB/s
   network: ws
   port: 2082
   server: 104.17.147.22
@@ -31,7 +24,7 @@ proxies:
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
 - country: 🇩🇪DE
   delay: 2327
-  name: 2|🇩🇪2 |  4.5MB/s
+  name: 1|🇩🇪2 |  4.5MB/s
   password: 334c4713-73ea-4e71-b827-21a22d31736b
   port: 24237
   server: de2.xiaoliyu.cyou
@@ -42,7 +35,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 2415
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0038
+  name: 1,14|CN_speednode_0038
   network: tcp
   port: 58031
   reality-opts:
@@ -57,7 +50,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪4 |  2.9MB/s
+  name: 1|🇩🇪4 |  2.9MB/s
   network: ws
   port: 2095
   server: ns.cloudflare.com
@@ -73,7 +66,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇩🇪5 |  3.9MB/s
+  name: 1|🇩🇪5 |  3.9MB/s
   network: ws
   port: 2083
   server: 104.17.148.22
@@ -88,7 +81,7 @@ proxies:
     path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
 - country: 🇩🇪DE
   delay: 2452
-  name: 2|🇩🇪6 |  4.9MB/s
+  name: 1|🇩🇪6 |  4.9MB/s
   password: 334c4713-73ea-4e71-b827-21a22d31736b
   port: 24270
   server: de1.xiaoliyu.cyou
@@ -99,7 +92,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪7 |  4.1MB/s
+  name: 1|🇩🇪7 |  4.1MB/s
   network: ws
   port: 2053
   server: 199.34.228.65
@@ -115,7 +108,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇩🇪8 |  1.7MB/s
+  name: 1|🇩🇪8 |  1.7MB/s
   network: ws
   port: 2053
   server: 172.67.204.84
@@ -128,3 +121,10 @@ proxies:
     headers:
       Host: all22.kikforwindows.com
     path: /containers/de
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 323a74f6-5874-4ade-bc44-bafe49026518
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

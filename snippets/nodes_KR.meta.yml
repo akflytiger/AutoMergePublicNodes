@@ -1,33 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: f9916687-b17e-49be-a0a2-6060553295bb
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 02 | 1x KR
-  password: f9916687-b17e-49be-a0a2-6060553295bb
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: 313f6006-2c4a-470a-ae67-1b67c81f2a75
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 1016487d-ba8d-498b-84fb-773038f546a8
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: 313f6006-2c4a-470a-ae67-1b67c81f2a75
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 1016487d-ba8d-498b-84fb-773038f546a8
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇰🇷1 |  5.7MB/s
+- name: 1|🇰🇷1 |  5.7MB/s
   network: ws
   port: 443
   server: 135.84.76.105
@@ -41,7 +27,7 @@ proxies:
     headers:
       host: vn.dong2025.cfd
     path: /?ed=2560
-- name: 2|🇰🇷2 |  4.2MB/s
+- name: 1|🇰🇷2 |  4.2MB/s
   network: ws
   port: 443
   server: 217.163.76.97
@@ -55,7 +41,7 @@ proxies:
     headers:
       host: vn.dong2025.cfd
     path: /?ed=2560
-- name: 2|🇰🇷3 |  4.7MB/s
+- name: 1|🇰🇷3 |  4.7MB/s
   network: ws
   port: 443
   server: 185.16.110.0
@@ -72,21 +58,21 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 2|🇰🇷4 |  1.1MB/s
+  name: 1|🇰🇷4 |  1.1MB/s
   port: 17232
   server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
 - auth: d07ec566-018a-4a80-b3d3-b378fdead52c
-  name: 2|🇰🇷5 |  3.9MB/s
+  name: 1|🇰🇷5 |  3.9MB/s
   password: d07ec566-018a-4a80-b3d3-b378fdead52c
   port: 55215
   server: shy23.zqjc.cloud
   skip-cert-verify: false
   sni: shy23.zqjc.cloud
   type: hysteria2
-- name: 2|🇰🇷6 |  3.7MB/s
+- name: 1|🇰🇷6 |  3.7MB/s
   network: ws
   port: 443
   server: 63.141.128.96
@@ -100,7 +86,7 @@ proxies:
     headers:
       host: vn.dong2025.cfd
     path: /?ed=2560
-- name: 2|🇰🇷7 |  2.6MB/s
+- name: 1|🇰🇷7 |  2.6MB/s
   network: ws
   port: 23234
   server: 107.174.228.38
@@ -114,7 +100,7 @@ proxies:
     headers:
       host: vn.dong2025.cfd
     path: /?ed=2560
-- name: 2|🇰🇷8 |  1.2MB/s
+- name: 1|🇰🇷8 |  1.2MB/s
   network: ws
   port: 443
   server: 192.200.160.99
@@ -130,12 +116,26 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 2|🇰🇷9 |  1.3MB/s
+  name: 1|🇰🇷9 |  1.3MB/s
   port: 17232
   server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷 韩国 01 | 1x KR
+  password: 323a74f6-5874-4ade-bc44-bafe49026518
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷 韩国 02 | 1x KR
+  password: 323a74f6-5874-4ade-bc44-bafe49026518
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
