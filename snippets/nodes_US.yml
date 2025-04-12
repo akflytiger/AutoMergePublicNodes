@@ -1,42 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: cc75f8d1-5d29-4830-998b-69d23289b1ec
+  password: f9916687-b17e-49be-a0a2-6060553295bb
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: cc75f8d1-5d29-4830-998b-69d23289b1ec
+  password: f9916687-b17e-49be-a0a2-6060553295bb
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: cc75f8d1-5d29-4830-998b-69d23289b1ec
+  password: f9916687-b17e-49be-a0a2-6060553295bb
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: eabf511b-98b6-43b1-9633-5abb43bd8e47
+  password: 313f6006-2c4a-470a-ae67-1b67c81f2a75
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: eabf511b-98b6-43b1-9633-5abb43bd8e47
+  password: 313f6006-2c4a-470a-ae67-1b67c81f2a75
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 03 | 1x US Washington
-  password: eabf511b-98b6-43b1-9633-5abb43bd8e47
+  password: 313f6006-2c4a-470a-ae67-1b67c81f2a75
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
@@ -51,47 +51,9 @@ proxies:
   tls: false
   type: vmess
   uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- name: 2|🇺🇸16 |  5.4MB/s
-  network: ws
-  password: aTArbZ2F0E
-  port: 443
-  server: 172.66.168.209
-  sni: uSa-vp-27.bLAzECLOUD.SITE
-  type: trojan
-  ws-opts:
-    headers:
-      Host: uSa-vp-27.bLAzECLOUD.SITE
-    path: /linkvkws
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸17 |  2.7MB/s
-  network: tcp
-  port: 5228
-  server: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
-  ws-headers:
-    Host: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇺🇸19 |  1.7MB/s
-  network: ws
-  port: 30829
-  server: v29.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - alterId: '0'
   cipher: auto
-  name: 2|🇺🇸26 |  5.2MB/s
+  name: 2|🇺🇸19 |  4.8MB/s
   network: tcp
   port: '5229'
   server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
@@ -102,13 +64,6 @@ proxies:
   ws-headers:
     Host: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
   ws-path: /
-- name: 2|🇺🇸23 |  5.7MB/s
-  password: 3ffa664f-364a-4937-a314-1d9f02ad8458
-  port: 32031
-  server: lbso.bnnodeservice.com
-  skip-cert-verify: false
-  sni: cert.bitbyte.one
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -120,6 +75,32 @@ proxies:
   tls: false
   type: vmess
   uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸16 |  5.5MB/s
+  network: tcp
+  port: 5229
+  server: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
+  ws-headers:
+    Host: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸20 |  2.1MB/s
+  network: tcp
+  port: 5228
+  server: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
+  ws-headers:
+    Host: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
+  ws-path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
