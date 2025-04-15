@@ -1,4 +1,25 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 226f6989-0aa9-4419-bb6c-0a818d40c1cd
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 226f6989-0aa9-4419-bb6c-0a818d40c1cd
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 226f6989-0aa9-4419-bb6c-0a818d40c1cd
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: ''
   flow: ''
   mode: ''
@@ -45,6 +66,27 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.cfd
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: 5a4541fe-69b4-4fe8-ad23-0b298abf982c
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: 5a4541fe-69b4-4fe8-ad23-0b298abf982c
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: 5a4541fe-69b4-4fe8-ad23-0b298abf982c
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
