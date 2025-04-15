@@ -1,35 +1,8 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: bfb0bb9e-dc26-47d1-9a5c-f57df00ef860
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: bfb0bb9e-dc26-47d1-9a5c-f57df00ef860
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: bfb0bb9e-dc26-47d1-9a5c-f57df00ef860
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬1 |  5.8MB/s
-  password: wUIFQcMM2K2VYdVz8GKyeE
-  port: 443
-  server: 13.212.90.20
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡|@ripaojiedian
+  name: 12|🇸🇬 新加坡|@ripaojiedian
   port: 23910
   server: hzz9.fgmcx.top
   skip-cert-verify: false
@@ -39,7 +12,7 @@ proxies:
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   password: cdc48a7a-b618-45af-a831-5afbd686b02f
   port: 13203
   server: gg21.hangfengjiasu.com
@@ -47,7 +20,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 57.180.253.62
@@ -55,7 +28,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|新加坡|@ripaojiedian
+  name: 13|新加坡|@ripaojiedian
   network: tcp
   port: '23910'
   server: hzz9.fgmcx.top
@@ -63,24 +36,3 @@ proxies:
   tls: false
   type: vmess
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 01 | 1x SG
-  password: ce2ff801-b689-4b57-9a37-6bc124f3c2ff
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 02 | 1x SG
-  password: ce2ff801-b689-4b57-9a37-6bc124f3c2ff
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 03 | 1x SG
-  password: ce2ff801-b689-4b57-9a37-6bc124f3c2ff
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
