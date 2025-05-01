@@ -1,46 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: a236ef67-d16d-44a7-92d8-0ed416b0520b
-  port: 36241
-  server: free.2weradf.xyz
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 15c9be02-fa51-42c3-9151-98a42e349100
+  port: 31241
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: a236ef67-d16d-44a7-92d8-0ed416b0520b
-  port: 36243
-  server: free.2weradf.xyz
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 15c9be02-fa51-42c3-9151-98a42e349100
+  port: 31243
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: a236ef67-d16d-44a7-92d8-0ed416b0520b
-  port: 36245
-  server: free.2weradf.xyz
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 15c9be02-fa51-42c3-9151-98a42e349100
+  port: 31245
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇹🇼3 |  3.5MB/s
-  port: 3690
-  server: 3ffa084b-sukw00-sw1e10-7yd9.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇹🇼6 |  6.2MB/s
-  port: 3687
-  server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-- alterId: 0
-  cipher: auto
-  name: 2|🇹🇼16 |  5.6MB/s
+  name: 1|🇹🇼4 |  3.5MB/s
   port: 3687
   server: 4664f9a4-submo0-sv7alj-ctxx.a.fosant.com
   tls: false
@@ -48,17 +30,16 @@ proxies:
   uuid: 4e84400e-f4bc-11ef-81b7-f23c932f2c32
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇹🇼18 |  1.1MB/s
+  name: 1|🇹🇼17 |  1.3MB/s
   port: 3687
-  server: 846f3279-submo0-syap8d-dbk8.a.fosant.com
+  server: e8defb00-su7xc0-tf3uue-cum1.a.fosant.com
   tls: false
   type: vmess
-  uuid: 45845d5e-0605-11f0-8cf9-f23c93136cb3
+  uuid: 03010754-faf0-11ef-a7c4-f23c9313b177
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾|@ripaojiedian
+  name: 11|🇹🇼 台湾|@ripaojiedian
   port: 14100
   server: dxv4.pai50288.uk
   skip-cert-verify: false
@@ -67,7 +48,7 @@ proxies:
   type: vmess
   uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
 - client-fingerprint: chrome
-  name: 12,13|台湾2|@ripaojiedian
+  name: 11,12|台湾2|@ripaojiedian
   network: tcp
   password: e31da126-e127-46a1-abc2-9db20eea3f5d
   port: 27202
@@ -77,7 +58,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13|台湾|@ripaojiedian
+  name: 12|台湾|@ripaojiedian
   network: tcp
   port: '14100'
   server: dxv4.pai50288.uk
