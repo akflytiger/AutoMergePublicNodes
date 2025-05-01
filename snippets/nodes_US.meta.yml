@@ -1,23 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 27cbdfdb-5a49-4316-8149-ab22777e603d
-  port: 31211
-  server: free.2apzhfa.xyz
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 20862616-dde0-402c-af32-a248c82ec21f
+  port: 36211
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 27cbdfdb-5a49-4316-8149-ab22777e603d
-  port: 31213
-  server: free.2apzhfa.xyz
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 20862616-dde0-402c-af32-a248c82ec21f
+  port: 36213
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 27cbdfdb-5a49-4316-8149-ab22777e603d
-  port: 31215
-  server: free.2apzhfa.xyz
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 20862616-dde0-402c-af32-a248c82ec21f
+  port: 36215
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 1|🇺🇸1 |  4.2MB/s
@@ -1192,6 +1192,27 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 01 | 1x US Los Angeles
+  password: bc4c3e8c-3a9b-46d9-bef2-6f101e033d37
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: bc4c3e8c-3a9b-46d9-bef2-6f101e033d37
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 03 | 1x US Washington
+  password: bc4c3e8c-3a9b-46d9-bef2-6f101e033d37
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
