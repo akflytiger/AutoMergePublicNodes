@@ -1,16 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: af0439f6-fbec-4e34-a0f0-d57a6900c3f7
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: af0439f6-fbec-4e34-a0f0-d57a6900c3f7
-  port: 31313
-  server: free.2apzhfa.xyz
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: 57b26963-77e0-46a3-a397-4745abb87452
+  port: 36311
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -150,3 +143,17 @@ proxies:
     headers:
       Host: mot.luyuju.dpdns.org
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷韩国 01 | 1x KR
+  password: f46d7f1b-1b24-4cba-9a9b-3a22506ccf7b
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷韩国 02 | 1x KR
+  password: f46d7f1b-1b24-4cba-9a9b-3a22506ccf7b
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
