@@ -1,23 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 01 | 1x JP
-  password: 87afd0ea-10b9-4cd9-9640-2c1ab6456422
+  name: 0|🇯🇵日本 01 | 1x JP
+  password: d72162d1-9bce-460e-99ed-bc3c92cfbe11
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 02 | 1x JP
-  password: 87afd0ea-10b9-4cd9-9640-2c1ab6456422
+  name: 0|🇯🇵日本 02 | 1x JP
+  password: d72162d1-9bce-460e-99ed-bc3c92cfbe11
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 03 | 1x JP
-  password: 87afd0ea-10b9-4cd9-9640-2c1ab6456422
+  name: 0|🇯🇵日本 03 | 1x JP
+  password: d72162d1-9bce-460e-99ed-bc3c92cfbe11
   port: 31115
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 01 | 1x JP
+  password: 0d2f54aa-bdbc-4f75-b5ab-07e9f06bc231
+  port: 36111
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 02 | 1x JP
+  password: 0d2f54aa-bdbc-4f75-b5ab-07e9f06bc231
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 03 | 1x JP
+  password: 0d2f54aa-bdbc-4f75-b5ab-07e9f06bc231
+  port: 36115
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: rc4-md5
@@ -62,19 +83,16 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|日本4|@ripaojiedian
+  name: 12|🇯🇵 日本4|@ripaojiedian
   network: ws
-  port: '46015'
+  port: 46015
   server: 112.29.213.228
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
   uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
   ws-opts:
-    headers:
-      Host: ''
     path: /zh-cn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -84,23 +102,3 @@ proxies:
   server: 13.250.27.89
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 13|日本3|@ripaojiedian
-  network: tcp
-  port: '55002'
-  server: 183.237.84.53
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|日本5|@ripaojiedian
-  network: kcp
-  port: '53893'
-  server: 47.74.41.147
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
