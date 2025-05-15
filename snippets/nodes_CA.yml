@@ -1,5 +1,12 @@
 proxies:
-- name: 13|CA_speednode_0016
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 87afd0ea-10b9-4cd9-9640-2c1ab6456422
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 14|CA_speednode_0016
   password: '!!str 74260665780162200'
   port: 443
   server: allowing-owl.shiner427.skin
@@ -7,18 +14,11 @@ proxies:
   sni: allowing-owl.shiner427.skin
   type: trojan
   udp: true
-- name: 13|CA_speednode_0017
+- name: 14|CA_speednode_0017
   password: '!!str 74260665780162200'
   port: 443
   server: 52.60.142.77
   skip-cert-verify: true
   sni: allowing-owl.shiner427.skin
   type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦加拿大 01 | 1x CA
-  password: 68abb5de-e867-4436-9449-d1648e92a9d4
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
   udp: true
