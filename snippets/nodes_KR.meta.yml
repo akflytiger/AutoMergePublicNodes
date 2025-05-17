@@ -1,12 +1,33 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 34c15bab-cc0c-4b82-ac05-7106f8103c55
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 34c15bab-cc0c-4b82-ac05-7106f8103c55
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 199a905c-4bc1-4e9a-b601-3b4e368adab0
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: 0|🇰🇷1 |  6.1MB/s|44%|Netflix|Ope...
+  name: 2|🇰🇷1 |  6.1MB/s|44%|Netflix|Ope...
   password: qwerREWQ@@
   port: 4857
   server: 125.141.26.12
   type: ss
 - client-fingerprint: chrome
-  name: 0|🇰🇷2 |  1.4MB/s|61%|Disney|Open...
+  name: 2|🇰🇷2 |  1.4MB/s|61%|Disney|Open...
   network: ws
   port: '443'
   server: 172.66.45.20
@@ -24,7 +45,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 0|🇰🇷3 |  5.6MB/s|61%|Youtube|Ope...
+  name: 2|🇰🇷3 |  5.6MB/s|61%|Youtube|Ope...
   network: ws
   port: 2096
   server: 193.122.119.152
@@ -39,16 +60,9 @@ proxies:
       Host: dv4.789900.xyz
     path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 328c910d-c035-47e3-acdf-780d1a77aad7
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国|@ripaojiedian
+  name: 12|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
@@ -56,7 +70,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国2|@ripaojiedian
+  name: 12|🇰🇷 韩国2|@ripaojiedian
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6666
   server: 3.36.68.170
@@ -64,7 +78,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国3|@ripaojiedian
+  name: 12|🇰🇷 韩国3|@ripaojiedian
   password: 1601e3c29c8db1a88942cf0cad731bf3
   port: 3306
   server: 43.131.255.175
