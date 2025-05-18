@@ -1,21 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 64e05309-1997-42c2-b85e-b0424680759b
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 64e05309-1997-42c2-b85e-b0424680759b
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 64e05309-1997-42c2-b85e-b0424680759b
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: eff23bac-b8a9-4e18-8c5c-4235550a2c06
+  password: aee15982-9679-41af-be77-ce8b908dc488
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: eff23bac-b8a9-4e18-8c5c-4235550a2c06
+  password: aee15982-9679-41af-be77-ce8b908dc488
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: eff23bac-b8a9-4e18-8c5c-4235550a2c06
+  password: aee15982-9679-41af-be77-ce8b908dc488
   port: 36215
   server: free.2weradf.xyz
   type: ss
@@ -38,13 +59,14 @@ proxies:
   sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   type: trojan
   udp: true
-- name: 2|🇺🇸46 |  3.6MB/s|Netflix|Disney...
+- name: 2,14|US_speednode_0275
   password: a07cebde-351d-4ad3-8045-3cd0aa3f586c
   port: 443
   server: mg7.gy6688.xyz
   skip-cert-verify: true
   sni: mg7.gy6688.xyz
   type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   name: 2|🇺🇸61 |  3.9MB/s|29%|Openai
@@ -169,3 +191,55 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
+- name: 14|US_speednode_0178
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 160.79.105.81
+  skip-cert-verify: false
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=160.79.105.81:443
+- name: 14|US_speednode_0185
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 192.0.54.194
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=192.0.54.194:443&proxyIP=null
+- name: 14|US_speednode_0196
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 192.0.54.184
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=192.0.54.184:443&proxyIP=null
+- name: 14|US_speednode_0219
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 160.79.105.169
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=160.79.105.169:443&proxyIP=null

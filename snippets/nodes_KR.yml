@@ -1,7 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 64e05309-1997-42c2-b85e-b0424680759b
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 64e05309-1997-42c2-b85e-b0424680759b
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷 韩国 01 | 1x KR
-  password: eff23bac-b8a9-4e18-8c5c-4235550a2c06
+  password: aee15982-9679-41af-be77-ce8b908dc488
   port: 36311
   server: free.2weradf.xyz
   type: ss
@@ -46,3 +60,16 @@ proxies:
   server: 43.131.255.175
   tfo: false
   type: ss
+- name: 14|KR_speednode_0123
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 149.129.8.215
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=149.129.8.215:443&proxyIP=null
