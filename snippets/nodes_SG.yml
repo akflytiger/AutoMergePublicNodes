@@ -1,42 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 14ea907b-78a6-4608-bb6e-f190a23d7b44
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 14ea907b-78a6-4608-bb6e-f190a23d7b44
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 8bd7355d-2e8f-4c19-a0bd-b5c9503a0199
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 8bd7355d-2e8f-4c19-a0bd-b5c9503a0199
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 8bd7355d-2e8f-4c19-a0bd-b5c9503a0199
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
-  name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 0|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -47,11 +12,10 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|新加坡|@ripaojiedian
+  name: 10|🇸🇬 新加坡|@ripaojiedian
   network: ws
-  port: '30812'
+  port: 30812
   server: v12.heduian.link
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -62,8 +26,7 @@ proxies:
       Host: ocbc.com
     path: /oooo
 - client-fingerprint: chrome
-  name: 12,13|新加坡2|@ripaojiedian
-  network: tcp
+  name: 10|🇸🇬 新加坡2|@ripaojiedian
   password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
   port: 35000
   server: gzyd.cg.xxality.cn
@@ -71,8 +34,7 @@ proxies:
   sni: cgsg2.hysality.com
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|新加坡3|@ripaojiedian
-  network: tcp
+  name: 10|🇸🇬 新加坡3|@ripaojiedian
   password: ffea316f-7e81-4f8c-b122-1673abe353ed
   port: 42881
   server: 120.232.220.45
