@@ -1,7 +1,28 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: e6cfc1b6-82e5-4759-b165-34213926f97a
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: e6cfc1b6-82e5-4759-b165-34213926f97a
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 47e02f18-2e76-4431-9392-f9f0a35efcc8
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0,10|🇰🇷 韩国|@ripaojiedian
+  name: 2,12|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
@@ -9,7 +30,7 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 10|🇰🇷 韩国2|@ripaojiedian
+  name: 12|🇰🇷 韩国2|@ripaojiedian
   password: b86a48e8-542d-4b90-bb6e-ff0a3e7e4e97
   port: 38029
   server: xz.fanhua.art

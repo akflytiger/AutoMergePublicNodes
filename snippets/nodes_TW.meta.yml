@@ -1,6 +1,48 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: e6cfc1b6-82e5-4759-b165-34213926f97a
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: e6cfc1b6-82e5-4759-b165-34213926f97a
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: e6cfc1b6-82e5-4759-b165-34213926f97a
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: 47e02f18-2e76-4431-9392-f9f0a35efcc8
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: 47e02f18-2e76-4431-9392-f9f0a35efcc8
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: 47e02f18-2e76-4431-9392-f9f0a35efcc8
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 0|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
+  name: 2|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -10,7 +52,7 @@ proxies:
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
-  name: 10|🇹🇼 台湾|@ripaojiedian
+  name: 12|🇹🇼 台湾|@ripaojiedian
   password: bbe100f7-3b61-4602-8dc6-795239682ade
   port: 42765
   server: wb.kaiqsz.com
