@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦 加拿大 01 官网：urq8ab.allbluess....
+  password: fb42ef44-df38-456c-882f-ca6de1fbbe87
+  port: 36441
+  server: freea.glyphara.com
+  type: ss
+  udp: true
