@@ -1,28 +1,21 @@
 proxies:
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 0|4🇭🇰香港01|官网：m5c3cloud.pro
-  port: 21141
-  reality-opts:
-    public-key: Eups6Prbvg15cmO6xyumiyHSDnXyxdPpHot__djonlo
-    short-id: ef355cf1
-  server: freem.vidalith.com
-  servername: blakeana.roamspheretours.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 949d6828-8083-4130-8ab2-e9ee79217e36
 - cipher: chacha20-ietf-poly1305
   name: 0|25🇬🇧英国家宽|官网：mikasacloud.site
-  password: 949d6828-8083-4130-8ab2-e9ee79217e36
+  password: 0f0b07f5-3951-45f9-8be4-a91542bd6619
   port: 31271
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 1|5🇭🇰香港|官网：a5b3cloud.pro
+  password: 22cc17c8-37c5-4652-8827-a2a26e4f59bb
+  port: 36141
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|21🇬🇧英国住宅IP|官网：abluecloud.xyz
-  password: bfef5694-0ccc-4428-9386-9f4e38d4388c
+  password: 22cc17c8-37c5-4652-8827-a2a26e4f59bb
   port: 36271
   server: freea.glyphara.com
   type: ss
