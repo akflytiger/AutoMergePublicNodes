@@ -1,23 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|10🇯🇵日本|官网：m5c3cloud.pro
-  password: be13407a-641c-4362-b4e9-d0edc6d406dd
-  port: 31111
-  server: freem.vidalith.com
+  name: 0|11🇯🇵日本|官网：abluecloud.xyz
+  password: 7dd491ca-1796-45f2-a2aa-b65ab79bda17
+  port: 36111
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|11🇯🇵日本|官网：mikasacloud.site
-  password: be13407a-641c-4362-b4e9-d0edc6d406dd
-  port: 31113
-  server: freem.vidalith.com
+  name: 0|12🇯🇵日本|官网：a5b3cloud.pro
+  password: 7dd491ca-1796-45f2-a2aa-b65ab79bda17
+  port: 36113
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|12🇯🇵日本|官网：m5c3cloud.pro
-  password: be13407a-641c-4362-b4e9-d0edc6d406dd
-  port: 31115
-  server: freem.vidalith.com
+  name: 0|13🇯🇵日本|官网：蓝色海洋.xyz
+  password: 7dd491ca-1796-45f2-a2aa-b65ab79bda17
+  port: 36115
+  server: freea.glyphara.com
   type: ss
   udp: true
 - alterId: 64
@@ -36,9 +36,30 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
+- cipher: chacha20-ietf-poly1305
+  name: 2|10🇯🇵日本|官网：mikasacloud.site
+  password: 2966e428-3830-4807-8961-819444799660
+  port: 31111
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|11🇯🇵日本|官网：m5c3cloud.pro
+  password: 2966e428-3830-4807-8961-819444799660
+  port: 31113
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|12🇯🇵日本|官网：mikasacloud.site
+  password: 2966e428-3830-4807-8961-819444799660
+  port: 31115
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -50,7 +71,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本2|@ripaojiedian
+  name: 12|🇯🇵 日本2|@ripaojiedian
   password: 2e96aa2f3054
   plugin: v2ray-plugin
   plugin-opts:
@@ -67,7 +88,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本3|@ripaojiedian
+  name: 12|🇯🇵 日本3|@ripaojiedian
   port: 17233
   server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
   skip-cert-verify: false
@@ -77,7 +98,7 @@ proxies:
   uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本4|@ripaojiedian
+  name: 12|🇯🇵 日本4|@ripaojiedian
   password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00
   port: 32875
   server: jg647hf446ghvw.gym0boy.com
@@ -85,7 +106,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|日本3|@ripaojiedian
+  name: 13|日本3|@ripaojiedian
   network: tcp
   port: '17233'
   server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
@@ -95,7 +116,7 @@ proxies:
   uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 12|日本V2|@ripaojiedian
+  name: 13|日本V2|@ripaojiedian
   network: kcp
   port: '50951'
   server: 8.211.154.107
@@ -103,7 +124,7 @@ proxies:
   tls: false
   type: vmess
   uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
-- name: 13|JP_speednode_0058
+- name: 14|JP_speednode_0058
   network: ws
   password: Aimer
   port: 443

@@ -1,23 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|19🇺🇸美国|官网：m5c3cloud.pro
-  password: be13407a-641c-4362-b4e9-d0edc6d406dd
-  port: 31211
-  server: freem.vidalith.com
+  name: 0|18🇺🇸美国|官网：a5b3cloud.pro
+  password: 7dd491ca-1796-45f2-a2aa-b65ab79bda17
+  port: 36211
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|20🇺🇸美国家宽|官网：米卡莎.xyz
-  password: be13407a-641c-4362-b4e9-d0edc6d406dd
-  port: 31213
-  server: freem.vidalith.com
+  name: 0|19🇺🇸美国住宅IP|官网：abluecloud.xyz
+  password: 7dd491ca-1796-45f2-a2aa-b65ab79bda17
+  port: 36213
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|21🇺🇸美国|官网：米卡莎.xyz
-  password: be13407a-641c-4362-b4e9-d0edc6d406dd
-  port: 31215
-  server: freem.vidalith.com
+  name: 0|20🇺🇸美国|官网：蓝色海洋.xyz
+  password: 7dd491ca-1796-45f2-a2aa-b65ab79bda17
+  port: 36215
+  server: freea.glyphara.com
   type: ss
   udp: true
 - name: 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
@@ -56,9 +56,30 @@ proxies:
   sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|19🇺🇸美国|官网：m5c3cloud.pro
+  password: 2966e428-3830-4807-8961-819444799660
+  port: 31211
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|20🇺🇸美国家宽|官网：mikasacloud.site
+  password: 2966e428-3830-4807-8961-819444799660
+  port: 31213
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|21🇺🇸美国|官网：米卡莎.xyz
+  password: 2966e428-3830-4807-8961-819444799660
+  port: 31215
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -71,7 +92,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国|@ripaojiedian
+  name: 12,13|美国|@ripaojiedian
   network: ws
   port: '30832'
   server: v32.heduian.link
@@ -88,7 +109,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国5|@ripaojiedian
+  name: 12,13|美国5|@ripaojiedian
   network: ws
   port: '30828'
   server: 111.26.109.79
@@ -104,7 +125,7 @@ proxies:
     path: /oooo
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国4|@ripaojiedian
+  name: 12|🇺🇸 美国4|@ripaojiedian
   password: 26270a5c-cc66-4bb5-b058-c75d09d615e5
   port: 54322
   server: cm55-zz.moonwang.xyz
