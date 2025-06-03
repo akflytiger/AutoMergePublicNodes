@@ -1,18 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|16🇰🇷韩国|官网：米卡莎.xyz
-  password: 6e994f6f-959b-4ba5-b43b-33d281cb04e8
-  port: 31311
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|17🇰🇷韩国|官网：米卡莎.xyz
-  password: 6e994f6f-959b-4ba5-b43b-33d281cb04e8
-  port: 31313
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - name: 1|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
   network: ws
   port: 8880
@@ -97,10 +83,3 @@ proxies:
   type: vless
   udp: true
   uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-- cipher: chacha20-ietf-poly1305
-  name: 14|16🇰🇷韩国|官网：a5b3cloud.pro
-  password: 22749d2c-323c-4ba4-bd2c-be6f0f9bd75a
-  port: 36311
-  server: freea.glyphara.com
-  type: ss
-  udp: true
