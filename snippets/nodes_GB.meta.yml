@@ -1,9 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 101 | 1x HK
-  password: b27c82b0-7f82-4a9f-a8c4-a203ebda4e05
+  name: 0|🇭🇰香港 101 | 1x HK
+  password: 34067d52-6634-4b0e-9d25-374ce668545d
   port: 31141
   server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 101 | 1x HK
+  password: 83e38e46-bc83-4399-b73d-48055563a323
+  port: 36141
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧 英国 102 | 1x UK
+  password: 83e38e46-bc83-4399-b73d-48055563a323
+  port: 36273
+  server: freea.glyphara.com
   type: ss
   udp: true
 - name: '11|Channel id: @ShadowProxy66🇬🇧'
