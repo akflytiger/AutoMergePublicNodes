@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -9,7 +9,34 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13|SG_speednode_0282
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|新加坡2|@ripaojiedian
+  network: ws
+  port: '8443'
+  server: 172.64.157.100
+  servername: transcripts-guys-singapore-fotos.trycloudflare.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 3da5d27f-08d0-4078-f890-cf950ecb1708
+  ws-opts:
+    headers:
+      Host: transcripts-guys-singapore-fotos.trycloudflare.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡|@ripaojiedian
+  network: kcp
+  port: '51713'
+  server: 8.219.72.131
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5ddb4459-ce08-462b-b920-efc464f7e94e
+- name: 14|SG_speednode_0282
   network: ws
   password: ttfang
   port: 5027
@@ -22,7 +49,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 13|SG_speednode_0289
+- name: 14|SG_speednode_0289
   network: ws
   password: ttfang
   port: 1111
@@ -35,7 +62,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 13|SG_speednode_0291
+- name: 14|SG_speednode_0291
   network: ws
   password: ttfang
   port: 53076
@@ -48,7 +75,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 13|SG_speednode_0292
+- name: 14|SG_speednode_0292
   network: ws
   password: ttfang
   port: 443
@@ -61,7 +88,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 13|SG_speednode_0293
+- name: 14|SG_speednode_0293
   network: ws
   password: ttfang
   port: 443
@@ -74,7 +101,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 13|SG_speednode_0294
+- name: 14|SG_speednode_0294
   network: ws
   password: ttfang
   port: 443
