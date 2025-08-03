@@ -133,6 +133,8 @@ hysteria2://123456@192.3.85.237:443?insecure=1&sni=bing.com#10%7C%40V2rayNG3
 hysteria2://15cca331-9e92-449d-93b0-25f82203595f@gb.gomeow.online:20309?insecure=0&sni=gb.gomeow.online#10%7C%40V2rayNG3%20%231
 hysteria2://22f2c759db51b3d0@109.120.135.123:12122?insecure=1&sni=www.bing.com&obfs=salamander&obfs-password=de8287cd33b05fa3#10%7C%40V2rayNG3%20%232
 hysteria2://65a43b6e-19c5-4fab-b960-d110a07d66a4@209.141.47.127:3234?insecure=1#10%2C11%7CChannel%20id%3A%20%40ShadowProxy66%F0%9F%87%BA%F0%9F%87%B8%20%232
+hysteria2://68821a5b-49db-49c7-924f-22b1441e5b30@107.173.127.166:443?insecure=1&sni=api.push.apple.com#10%7C%40Daily_Configs
+hysteria2://68821a5b-49db-49c7-924f-22b1441e5b30@198.23.130.211:443?insecure=1&sni=api.push.apple.com#10%7C%40Daily_Configs%20%231
 hysteria2://75577117-ABCD-DCBA-AAAA-CC777775577B@s15.serv00.com:7777?insecure=1&sni=www.bing.com#10%7C%40V2rayNG3%20%233
 hysteria2://%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi@206.71.158.40:35000?insecure=0&sni=pichondan.com&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi#10%7C%F0%9F%9B%A1%EF%B8%8F%20%40FreakConfig
 hysteria2://%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi@77.90.52.69:35000?insecure=1&sni=pichondan.com&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi#10%7C%D8%A2%D9%85%D8%A7%20%F0%9F%87%A9%F0%9F%87%AA%20%40V2xay
