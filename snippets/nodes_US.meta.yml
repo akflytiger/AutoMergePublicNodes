@@ -16,16 +16,7 @@ proxies:
   sni: u691611us849.ccgfw.top
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 8|🇺🇸US-🚀@VPNine1
-  password: 9794d18f-9280-3553-a7a5-a23da75aca76
-  port: 443
-  server: 192.3.118.133
-  sni: u691611udb8727a3s2316.sspcccdn.xyz
-  tls: false
-  type: hysteria2
-- name: '8|🇺🇸US-🚀@VPNine1 #1'
+- name: 8|🇺🇸US-🚀@VPNine1
   password: 9794d18f-9280-3553-a7a5-a23da75aca76
   port: 443
   server: 23.166.40.27
