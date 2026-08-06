@@ -348,7 +348,7 @@ proxies:
   sni: bel-03.node.lumixnet.com
   tls: false
   type: hysteria2
-- name: '8|荷兰 #1'
+- name: 8,9|🇱NL-@VPNine1
   password: gf1
   port: 443
   server: 5.129.235.85
@@ -425,14 +425,7 @@ proxies:
   sni: usa1.spectrumproxy.shop
   tls: false
   type: hysteria2
-- name: 9|134686 | ️Telegram = t.me/SOSk...
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: soskeynets.spectrumproxy.shop
-  sni: usa1.spectrumproxy.shop
-  tls: false
-  type: hysteria2
-- name: 9|🇸134686 | ⚡️Telegram = t.me/SO...
+- name: 9|5💫@oneclickvpnkeys
   password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
   port: 443
   server: usa1.spectrumproxy.shop
@@ -454,7 +447,7 @@ proxies:
   sni: flkf3.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 9|95@oneclickvpnkeys
+- name: 9|💫95@oneclickvpnkeys
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2056
   server: xby.mangshe.xyz
@@ -487,7 +480,7 @@ proxies:
   port: 443
   server: 15.237.219.57
   skip-cert-verify: true
-  sni: https://t.me/clashv8🇳
+  sni: https://t.me/clashv8
   tls: false
   type: hysteria2
 - name: 9|💫58@oneclickvpnkeys
@@ -526,13 +519,6 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|🇱134723 | ⚡️Telegram = t.me/SO...
-  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-  port: 8443
-  server: 86.107.178.66
-  sni: grape-zet-turbo-nl.yyuyy.com
-  tls: false
-  type: hysteria2
 - name: 9|  @vistav2ray  👈کانال  ✅
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
@@ -543,7 +529,7 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 9|🇳🇱 - NL - @FreeOnlineVPN
+- name: 9|🇳 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -707,7 +693,7 @@ proxies:
   sni: pro2.riziro.ir
   tls: false
   type: hysteria2
-- name: 9|️16@SHAHSERVER1
+- name: 9|️️16@SHAHSERVER1
   password: zhangyang
   port: 6443
   server: 130.61.50.75
