@@ -1,4 +1,60 @@
 proxies:
+- name: 8|🇸US
+  password: 553e3253-c454-431d-a7e6-42bc06ea5e14
+  port: 8443
+  server: srvhy1.ezcon24.online
+  skip-cert-verify: true
+  sni: srvhy1.ezcon24.online
+  tls: false
+  type: hysteria2
+- name: 8|3@wxgqlfx#美国
+  password: 571e40e5-d597-4618-9204-535c94dca771
+  port: 36253
+  server: uswx3.wxgqlfx.vip
+  skip-cert-verify: true
+  sni: 144.225.187.184
+  tls: false
+  type: hysteria2
+- name: 8|美国
+  password: CJtE4HLmxz859YMNiZM1NTuDRy7jjs8t
+  port: 1443
+  server: pg-usa2-hy2.gigatapbot.top
+  skip-cert-verify: true
+  sni: pg-usa2-hy2.gigatapbot.top
+  tls: false
+  type: hysteria2
+- name: 8|美国4@wxgqlfx#美国
+  password: a000fb47-5dfd-4a6b-9739-2878883d6969
+  port: 36253
+  server: uswx4.wxgqlfx.vip
+  skip-cert-verify: true
+  sni: 144.225.187.153
+  tls: false
+  type: hysteria2
+- name: '8|美国 #1'
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: node1.sferavpn.pro
+  sni: node1.sferavpn.pro
+  tls: false
+  type: hysteria2
+- name: '8|美国 #2'
+  password: e0c7af35-e2db-47c7-b1a3-ce5ec0dd0474
+  port: 8458
+  server: hy2-us.frdmhere.com
+  sni: hy2.frdmhere.com
+  tls: false
+  type: hysteria2
+- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.213.89.22
+  skip-cert-verify: true
+  sni: vk.com
+  tls: false
+  type: hysteria2
 - name: 11,12|美国|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
