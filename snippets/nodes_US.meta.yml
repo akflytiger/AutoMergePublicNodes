@@ -1,65 +1,25 @@
 proxies:
-- name: 8|🇸US
-  password: 553e3253-c454-431d-a7e6-42bc06ea5e14
-  port: 8443
-  server: srvhy1.ezcon24.online
+- name: 11,12|美国|@ripaojiedian
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 28051
+  server: 16.162.109.29
   skip-cert-verify: true
-  sni: srvhy1.ezcon24.online
-  tls: false
-  type: hysteria2
-- name: 8|3@wxgqlfx#美国
-  password: 571e40e5-d597-4618-9204-535c94dca771
-  port: 36253
-  server: uswx3.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 144.225.187.184
-  tls: false
-  type: hysteria2
-- name: 8|美国
-  password: CJtE4HLmxz859YMNiZM1NTuDRy7jjs8t
-  port: 1443
-  server: pg-usa2-hy2.gigatapbot.top
-  skip-cert-verify: true
-  sni: pg-usa2-hy2.gigatapbot.top
-  tls: false
-  type: hysteria2
-- name: 8|美国4@wxgqlfx#美国
-  password: a000fb47-5dfd-4a6b-9739-2878883d6969
-  port: 36253
-  server: uswx4.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 144.225.187.153
-  tls: false
-  type: hysteria2
-- name: '8|美国 #1'
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: node1.sferavpn.pro
-  sni: node1.sferavpn.pro
-  tls: false
-  type: hysteria2
-- name: '8|美国 #2'
-  password: e0c7af35-e2db-47c7-b1a3-ce5ec0dd0474
-  port: 8458
-  server: hy2-us.frdmhere.com
-  sni: hy2.frdmhere.com
-  tls: false
-  type: hysteria2
+  sni: www.nintendogames.net
+  type: trojan
 - name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 39024
-  server: 18.163.126.92
+  port: 10418
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1431
-  server: 18.162.154.22
+  port: 10418
+  server: 95.40.29.163
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
