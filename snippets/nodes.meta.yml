@@ -107,7 +107,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|72@oneclickvpnkeys
+- name: 9|🪐72@oneclickvpnkeys
   password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
   port: 443
   server: 217.60.33.215
@@ -153,7 +153,7 @@ proxies:
   sni: sni-here.com
   tls: false
   type: hysteria2
-- name: 9|89@oneclickvpnkeys
+- name: 9|🪐89@oneclickvpnkeys
   obfs: salamander
   obfs-password: HysteriaHowdy
   password: HowdyHysteria2023w0W
@@ -163,7 +163,7 @@ proxies:
   sni: sni-here.com
   tls: false
   type: hysteria2
-- name: 9|78@oneclickvpnkeys
+- name: 9|🪐78@oneclickvpnkeys
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.171
@@ -179,7 +179,7 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: 9|79@oneclickvpnkeys
+- name: 9|🪐79@oneclickvpnkeys
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.174
@@ -347,7 +347,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|88@oneclickvpnkeys
+- name: 9|🪐88@oneclickvpnkeys
   password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
   port: 8443
   server: 159.223.157.129
